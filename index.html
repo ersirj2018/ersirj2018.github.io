@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117933373-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-117933373-1');
+    </script>
+    <script>
+        /* Set the width of the side navigation to 250px */
+        function openNav() {
+            document.getElementById("sidenav").style.width = "350px";
+        }
+
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+            document.getElementById("sidenav").style.width = "0";
+        }
+    </script>
+    <meta charset="utf-8">
+    <title>ERSI 2018</title>
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/jquery-min.js"></script>
+    <script>
+        function mouseover(){
+            $("#main-about-image").hide();
+            $(".main-about-title").prepend($("<iframe />")
+                .addClass("main-about-map")
+                .attr("src","https://www.google.com/maps/embed/v1/place?key=AIzaSyBWbS676cX_i9th-5WcA44xWRkvlIcaSEo&q=Centro+Federal+de+Educação+Tecnológica+Celso+Suckow+da+Fonseca,+Campus+Nova+Friburgo,Nova+Friburgo,Brasil")
+                .attr("onmouseout","mouseout()")
+            );
+        };
+        function mouseout(){
+            $(".main-about-map").hide();
+            $("#main-about-image").show();
+
+        }
+    </script>
+</head>
+<body>
+   <nav class="menu">
+        <a href="http://www.sbc.org.br/" target="_blank">
+            <img src="./img/sbc.png" alt="Logo SBC" class="sbc_top">
+        </a>
+        <h1> 24, 25 e 26 de Outubro</h1>
+        <a href="index.html">
+            <img src="./img/logo_ersi_escuro.png" alt="Logo da ERSI 2018" class="ersi_logo">
+        </a>
+        <ul class="menu-list">
+            <li><a href="index.html"> Início </a></li>
+            <li><a href="chamada.html"> Chamadas </a></li>
+            <li><a href="programacao.html"> Programação </a></li>
+            <li><a href="inscricoes.html"> Inscrições </a></li>
+            <li><a href="local.html"> Local</a></li>
+            <li><a href="palestras.html"> Palestras </a></li>
+            <li><a href="hackathon.html">Hackathon</a></li>
+            <li><a href="mostraRobotica.html">Mostra de Robótica</a></li>
+            <li><a href="minicursos.html">Minicursos</a></li>
+        </ul>
+        <div id="menuLat" onclick="openNav()">
+            <img src="./img/menu-resp.png"/>
+        </div>
+    </nav>
+
+    <nav id="sidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html"> Início </a>
+        <a href="chamada.html"> Chamadas</a>
+        <a href="programacao.html"> Programação </a>
+        <a href="inscricoes.html"> Inscrições </a>
+        <a href="local.html"> Local</a>
+        <a href="palestras.html"> Palestras </a>
+        <a href="hackathon.html">Hackathon</a>
+        <a href="mostraRobotica.html">Mostra de Robótica</a>
+        <a href="minicursos.html">Minicursos</a>
+    </nav>
+    <main>
+        <section class="main-presentation">
+            <h1>Apresentação</h1>
+            <div class="main-presentation-content">
+                <p>
+                    A Escola Regional de Sistemas de Informação - RJ (ERSI-RJ) é um evento para reunir profissionais, professores e, principalmente, estudantes interessados em aprender e discutir problemas, soluções e conceitos relacionados a Sistemas de Informação por meio de palestras, painéis, apresentação de trabalhos científicos, minicursos e tutoriais.
+                </p>
+                <p>
+                    Em 2018, a V ERSI-RJ será realizada na cidade de Nova Friburgo, RJ, tendo como objetivo principal reunir estudantes, professores, pesquisadores e profissionais de Sistemas de Informação para promover discussões sobre temas relacionados a esta área.
+                </p>
+                <p>
+                    A programação da V ERSI-RJ contará com diversas atividades que se destacam pelo seu alto nível técnico-científico e que cobrem diferentes aspectos, incluindo:
+                </p>
+
+                <ul>
+                    <li>Palestras convidadas com especialistas nacionais;</li>
+                    <li>Painel com representantes da academia, indústria e governo;</li>
+                    <li>Sessões técnicas para a apresentação dos artigos científicos selecionados;</li>
+                    <li>Minicursos e oficinas em diversas áreas;</li>
+                    <li>Mostra de robótica e automação;</li>
+                    <li>Hackathon.</li>
+                </ul>
+                <a href="edanteriores.html"> Confira as Edições anteriores </a>
+                <h1>Certificados</h1>
+                <p>Segue abaixo os certificados que já ficaram prontos. Caso tenha algum problema, envie-nos um e-mail contato.ersi2018@gmail.com ou pelo e-mail disponível no JEMS.</p>
+                <ul>
+                    <li><a href="./docs/participacao1.pdf">Participação [1 de 5]</a></li>
+                    <li><a href="./docs/participacao2.pdf">Participação [2 de 5]</a></li>
+                    <li><a href="./docs/participacao3.pdf">Participação [3 de 5]</a></li>
+                    <li><a href="./docs/participacao4.pdf">Participação [4 de 5]</a></li>
+                    <li><a href="./docs/participacao5.pdf">Participação [5 de 5]</a></li>
+                    <li><a href="./docs/sessao_tecnica.pdf">Sessão Técnica e Premiados</a></li>
+                    <li><a href="./docs/minicurso1_minicurso2.pdf">Minicursos 1 e 2</a></li>
+                    <li><a href="./docs/minicurso3_minicurso4_minicurso5.pdf">Minicursos 3, 4 e 5</a></li>
+                    <li><a href="./docs/oficina1.pdf">Oficina 1</a></li>
+                    <li><a href="./docs/oficina2.pdf">Oficina 2</a></li>
+                    <li><a href="./docs/oficina3.pdf">Oficina 3</a></li>
+                    <li><a href="./docs/fresi.pdf">Fórum Regional de Educação em Sistemas de Informação</a></li>
+                    <li><a href="./docs/hackathon.pdf">Hackathon</a></li>
+                    <li><a href="./docs/mostra_robotica.pdf">Mostra de Robótica</a></li>
+                    <li>Falta liberar: oficina 4</li>
+                </ul>
+            </div>
+            <img src="./img/nova-friburgo.jpg" alt="Nova Friburgo" class="main-image"/>
+            <br clear="both"/>
+        </section>
+        <div class="main-about" id="event-place">
+            <img src="./img/cefet.png" alt="Cefet/Rj Campus Friburgo" id="main-about-image" >
+            <h1 class="main-about-title" >CEFET/RJ</h1>
+            <h2 class="main-about-title"><i>campus</i> Nova Friburgo</h2>
+            <article>
+                A realização da escola regional de sistemas de informação no CEFET/RJ Nova Friburgo representa uma grande oportunidade de difundir, para além dos grandes centros, o papel e a importância da SBC para o desenvolvimento tecnológico na área da computação. A organização e execução do evento irá aumentar o engajamento, integração e proporcionará um contato com novos conhecimentos e tecnologias aos discentes de universidades do interior, que usualmente não têm acesso a grandes eventos.
+            </article>
+            <button class="main-about-button"><a href="local.html">Veja mais</a></button>
+        </div>
+        <section class="main-org">
+            <h3>Coordenação da Escola Regional de Sistemas de Informação 2018</h3>
+            <dl>
+                <dt>Rafael Elias de Lima Escalfoni – CEFET/RJ</dt>
+                <dt>Bruno Policarpo Toledo Freitas – CEFET/RJ</dt>
+            </dl>
+            <h3>Coordenação de Painéis e Palestras</h3>
+            <dl>
+                <dt>Eliezer Dutra Gonçalves – CEFET/RJ</dt>
+                <dt>Raimundo José Macário da Costa – UFRRJ</dt>
+            </dl>
+            <h3>Coordenação de Sessões Técnicas e Pôsteres</h3>
+            <dl>
+                <dt>Claudio Miceli de Farias – NCE/UFRJ</dt>
+                <dt>Marco André Abud Kappel – CEFET/RJ</dt>
+            </dl>
+            <h3>Coordenação de Minicursos</h3>
+            <dl>
+                <dt>Tiago Cruz de França – UFRRJ</dt>
+                <dt>Juliana França - UFRRJ</dt>
+            </dl>
+            <h3>Coordenação da Feira de Robótica e Automação</h3>
+            <dl>
+                <dt>Luís Cláudio Batista da Silva – CEFET/RJ</dt>
+                <dt>Fabrício Barros Gonçalves – IFF</dt>
+            </dl>
+            <h3>Coordenação da Hackathon</h3>
+            <dl>
+                <dt>Álvaro Ernesto Robles Rincón – NCE/UFRJ</dt>
+                <dt>Emanuele Jorge – IFRJ</dt>
+            </dl>
+            <h3>Comitê de Organização</h3>
+            <dl>
+                <dt>Rafaela Moreira Oliveira - CEFET/RJ</dt>
+                <dt>Gisela Bochner - CEFET/RJ</dt>
+                <dt>André Queiroz Ferreira de Mello - CEFET/RJ</dt>
+                <dt>Edvar Fernandes Batista – CEFET/RJ</dt>
+            </dl>
+            <h3>Comitê de Programa</h3>
+            <dl>
+                <dt>Alana Morais - IESP</dt>
+                <dt>Alessandro Copetti - UFF</dt>
+                <dt>Alexandre Sena - UERJ</dt>
+                <dt>Aline Morais - IESP</dt>
+                <dt>André Luiz de Castro Leal - UFRRJ</dt>
+                <dt>Angelica Dias - UFRJ</dt>
+                <dt>Áquila Ditzz - IFF</dt>
+                <dt>Bernardo Peralva - UERJ</dt>
+                <dt>Bruno Freitas - CEFET/RJ</dt>
+                <dt>Bruno Missi Xavier - IFES</dt>
+                <dt>Carlos Eduardo Pantoja - CEFET/RJ </dt>
+                <dt>Claudia Cappelli - UNIRIO</dt>
+                <dt>Claudio de Farias - UFRJ</dt>
+                <dt>Daniel França - UFPB</dt>
+                <dt>Daniel Paiva - UFF</dt>
+                <dt>Diego Brandão - CEFET/RJ</dt>
+                <dt>Elias S. Gonçalves - IME</dt>
+                <dt>Eliezer Dutra - UNIRIO</dt>
+                <dt>Emanuele Jorge - IFRJ</dt>
+                <dt>Fabiana Mendes - UnB</dt>
+                <dt>Fabrício Barros - IFF</dt>
+                <dt>Fábio Silveira Vidal - IFTO</dt>
+                <dt>Fernanda Baião - UNIRIO</dt>
+                <dt>Flavia Santoro - UNIRIO</dt>
+                <dt>Geiza Hamazaki - PUC-Rio</dt>
+                <dt>Geraldo Xexéo - UFRJ</dt>
+                <dt>Gizelle Vianna - UFRRJ</dt>
+                <dt>Henrique Sousa - UFRJ</dt>
+                <dt>Hugo Cesar Carneiro - UFRJ</dt>
+                <dt>Isabel Cafezeiro - UFF</dt>
+                <dt>José Viterbo - UFF</dt>
+                <dt>José Ricardo Cereja - UNIRIO</dt>
+                <dt>Juliana França - UFRJ</dt>
+                <dt>Laci Mary Manhaes - UFF</dt>
+                <dt>Luis Orleans - UFRRJ</dt>
+                <dt>Luis Silva - CEFET/RJ</dt>
+                <dt>Marco Kappel - CEFET/RJ</dt>
+                <dt>Mônica Silva - UFRJ</dt>
+                <dt>Nilton Rizzo - UFRRJ</dt>
+                <dt>Rafael Costa - UFRJ</dt>
+                <dt>Rafael Escalfoni - CEFET/RJ   </dt>
+                <dt>Rafael Lima de Carvalho - UFTO</dt>
+                <dt>Raimundo Macário Costa - UFRRJ</li>
+                <dt>Renata Araujo - UNIRIO</dt>
+                <dt>Ricardo Bernardo - IFES</dt>
+                <dt>Robson Silva - UFRRJ</dt>
+                <dt>Rodrigo Monteiro - UFF</dt>
+                <dt>Sergio Manuel Serra - UFRRJ</li>
+                <dt>Tiago França - UFRRJ</dt>
+            
+            </dl>
+        </section>
+    </main>
+    <footer>
+        <div class="apoio">
+            <div class="organizacao">
+                <div class="footer-ersi-suporters">
+                    <h3>Realização</h3>
+                    <a href="http://www.sbc.org.br/" target="_blank">
+                        <img src="./img/sbc.png" alt="Logo SBC">
+                    </a>
+                </div>
+                <div class="footer-ersi-organizaters">
+                    <h3>Organização</h3>
+                    <a href="#"><img src="./img/logo_cefet.png" class="logo_apoio" alt="Organização"></a>
+                </div>
+                <div class="footer-ersi-facebook">
+                    <h3>ERSI no Facebook:</h3>
+                    <iframe 
+                        class="footer-ersi-facebook-box" 
+                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FERSI2018%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="apoio">
+            <h3>Patrocínio Ouro</h3>
+            <div class="ouro">
+                <div class="apoiador">
+                    <a href="http://www.foursafe.com/">
+                        <img src="./img/apoio/fourSafe.png"/>
+                    </a>
+                </div>
+                <div class="apoiador">
+                    <a href="https://www.facebook.com/leiteriapaissandu/">
+                        <img src="./img/apoio/leiteria_paissandu_h.png"/>
+                    </a>
+                </div>
+            </div>
+            
+            <h3>Patrocínio Prata</h3>
+            
+            <div class="institucional">
+                <div class="apoiador">
+                    <a href="https://coworkingbrasil.org/spaces/colaboracao-space/"><img src="./img/apoio/colaboracao_space.png"/></a>
+                </div>
+                <div class="apoiador">
+                      <a href="http://www.frionline.com.br/">
+                        <img src="./img/apoio/frionline.png"/>
+                      </a>
+                </div>
+            </div>
+
+            <h3>Patrocínio Bronze</h3>
+            <div class="institucional">
+                <div class="apoiador">
+                    <a href="http://www.farolservicos.com/">
+                        <img src="./img/apoio/farol.png"/>
+                        <br/>
+                        Farol Serviços
+                    </a>
+                </div>
+            
+            </div>
+        </div>
+        <div class="apoio">
+            <h3>Apoio Institucional</h3>    
+            <div class="institucional">
+                
+                <div class="apoiador">
+                    <a href="http://www.pmnf.rj.gov.br/"><img class="pmnf" src="./img/apoio/PMNF_logo.jpg"/></a>
+                </div>
+                <div class="apoiador">
+                    <a href="http://www.sebrae.com.br/sites/PortalSebrae/ufs/rj?codUf=20"><img class="sebrae" src="./img/apoio/sebrae.jpg"/></a>
+                </div>
+            
+                <div class="apoiador">
+                    <a href="http://portal1.iff.edu.br/nossos-campi/bom-jesus-do-itabapoana" title="Instituto Federal de Educação, Ciência e Tecnologia Fluminense"><img class="iff" src="./img/apoio/iff.jpg"/></a>
+                </div>
+                <div class="apoiador">
+                    <a href="http://www.ifrj.edu.br/" title="Instituto Federal de Educação, Ciência e Tecnologia do Rio de Janeiro"><img class="iff" src="./img/apoio/ifrj.jpg"/></a>
+                </div>
+                <div class="apoiador">
+                    <a href="http://ufrj.br"><img class="ufrj" src="./img/apoio/ufrj.jpg"/></a>
+                </div>
+                <div class="apoiador">
+                    <a href="http://portal.ufrrj.br"><img class="ufrrj" src="./img/apoio/ufrrj.jpg"/></a>
+                </div>
+            </div>
+        </div>
+        <div class="apoio">
+            <h3>Empresa Parceira</h3>
+            <div class="empresa">
+                
+                <div class="apoiador">
+                    <a href="https://www.facebook.com/knuppconsultoria/">
+                        <img src="./img/apoio/knupp.png"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

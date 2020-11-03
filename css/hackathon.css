@@ -1,0 +1,49 @@
+body{
+  background-color: #302d2d;
+}
+h1,h2,h3,h4,h5,h6,li,a,p,article,figcaption{
+  font-family: 'Roboto Mono', sans-serif;
+  color:#65fe3f;
+}
+@media screen and (min-device-width: 768px){
+    /* fim do menu */
+    .main{
+      width: 95%;
+      padding: 30px;
+      margin-top:  15px;
+      background-color:#111111;
+      text-align: justify;
+      padding-bottom: 30px;
+    }
+
+  p{
+    margin-top: 5px;
+  }
+
+  h3 {
+    font-size: 2em;
+    margin:20px 0 10px 0;
+  }
+
+  dd{
+    margin:10px 15px; 
+  }
+
+  a{
+    color: rgb(244,197,83);
+  }
+  ul {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px){
+  p {
+    margin: 20px 10px;
+    font-size: 1em;
+  }
+  h3 {
+    font-size: 2em;
+    margin:20px 0 10px 0;
+  }
+}

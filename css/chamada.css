@@ -1,0 +1,48 @@
+main{
+  background-color: #02081e;
+  padding: 50px 15px;
+}
+main h3{
+  margin:10px 0px 0px;
+}
+main p{
+    margin: 10px 0;
+}
+/*
+.main p{
+  margin:10px 5px;
+  line-height: 1.3em;
+}
+*/
+main dd{
+  margin:10px 15px;
+}
+.main-list{
+  width: 100%;
+  list-style: none;
+  /*
+  font-family: Arial, sans-serif;
+  font-size: 10pt;
+  */
+  margin: 15px;
+}
+.main-list h2{
+  font-size: 14pt;
+}
+.main-list li{
+  padding: 2px 0;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 12pt;
+}
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px){
+    main{
+        padding: 50px;
+    }
+}
+
+.line-through {
+  text-decoration: line-through;
+}

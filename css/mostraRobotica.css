@@ -1,0 +1,30 @@
+main{
+  background-color: #02081e;
+  padding: 50px;
+}
+
+.main-presentation p{
+  margin: 20px 0;
+}
+
+main h3, h1{
+  margin:30px 5px 15px 0;
+}
+
+.main-list{
+  width: 100%;
+  overflow: hidden;
+  margin: 15px;
+  list-style: none;
+}
+.main-list li{
+  padding: 2px 15px;
+}
+.main-list li p{
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.line-through {
+  text-decoration: line-through;
+}

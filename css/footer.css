@@ -1,0 +1,144 @@
+*{
+//  margin: 0;
+//  padding: 0;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 767px){
+    footer, .apoio{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+        color: #000;
+        text-align: center;
+      margin-bottom: 40px;
+    }
+    footer h3{
+        margin: 25px 0 5px 0;
+    }
+    .footer-ersi-facebook-box{
+        width: 340px;
+        height: 300px;
+    }
+    .logo_apoio{
+        width: 400px;
+    }
+    .footer-ersi-facebook-box{
+        width: 400px;
+        height: 500px;
+        margin: 10px 0;
+    }
+    
+    .footer-ersi-suporters, .footer-ersi-organizaters{
+        width: 100%;
+    }
+    .footer-ersi-organizaters img{
+        position: relative;
+        width: 400px;
+    }
+
+.organizacao, .institucional, .empresa, .ouro {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .apoio h3 {
+    color: #666;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  .apoiador {
+    margin: 5px 20px;
+  }
+
+  .ouro img {
+    height: 170px;
+  }
+  
+  .institucional, .empresa, .ouro {
+    padding: 10px;
+    margin: 10px 25px;
+  }
+  /*
+  .institucional img, .empresa img {
+    height: 150px;
+  }
+*/
+  .apoiador img, .empresa img {
+    height: 150px;
+  }
+
+}
+@media screen and (min-device-width: 768px){
+  .footer, footer, .apoio{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+  }
+  .footer-ersi-facebook, .footer-ersi-suporters, .footer-ersi-organizaters{
+    margin: 20px;
+  }
+  .footer-ersi-facebook-box{
+    width: 340px;
+    height: 300px;
+    margin: 10px 0;
+  }
+  .footer-ersi-suporters{
+    width: 400px;
+  }
+  .footer-ersi-organizaters img{
+      position: relative;
+      top: 50px;
+      width: 300px;
+  }
+  .logo_apoio{
+    width: 400px;
+  }
+
+  .organizacao, .institucional, .empresa, .ouro {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .apoio h3 {
+    color: #666;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  .apoiador {
+    margin: 5px 20px;
+    width: 350px;
+    text-align: center;
+  }
+
+  .ouro img, .prata img, .bronze img {
+    height: 100px;
+  }
+  
+  .institucional, .empresa, .ouro {
+    padding: 10px;
+    margin: 10px 25px;
+  }
+
+  .apoiador img, .empresa img {
+    height: 100px;
+  }
+  
+}
